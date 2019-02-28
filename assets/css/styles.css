@@ -177,4 +177,12 @@ textarea {
         width: 98%;
         margin: 5px;
     }
+
+    input.inputField {
+        width: 95%;
+    }
+
+    textarea {
+        width: 95%;
+    }
 }
