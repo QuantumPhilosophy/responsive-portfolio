@@ -170,4 +170,11 @@ textarea {
         float: none;
         display: block;
     }
+
+    img.portfolio {
+        float: none;
+        height: 250px;
+        width: 98%;
+        margin: 5px;
+    }
 }
