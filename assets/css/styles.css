@@ -1,0 +1,129 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    background-image: url("../images/dark-honeycomb.png");
+    padding: 0;
+    margin: 0;
+    color: #BFBFBF;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    margin: 0 10px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0));
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #8C8C8D;
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+h1 {
+    background-color: #666666;
+    border: 1px solid #404040;
+    padding: 10px;
+    margin: 0;
+    display: inline;
+}
+
+h2 {
+    margin: 10px;
+}
+
+a:link {
+    color: #7F7F7F;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #7F7F7F;
+    text-decoration: none;
+}
+
+nav span:hover {
+    background-color: #666666;
+    text-decoration: none;
+}
+
+a:active {
+    color: #666666;
+    text-decoration: none;
+}
+
+nav, section {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav span {
+    float: right;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+header {
+    background-color: #333333;
+    margin: 0;
+    padding: 10px 0;
+}
+
+section {
+    background-color: #333333;
+    border: 1px solid #404040;
+    flex: 1 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    flex-shrink: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 8px solid #7F7F7F;
+}
+
+p {
+    margin: 10px;
+}
+
+img {
+    float: left;
+    height: 213px;
+    width: 213px;
+    margin: 5px;
+}
+
+img.portfolio {
+    float: left;
+    height: 250px;
+    width: auto;
+    margin: 5px;
+}
+
+label {
+    display: block;
+    margin: 5px 10px;
+}
+
+input {
+    margin: 5px 10px;
+}
+
+input.inputField {
+    width: 350px;
+}
+
+textarea {
+    height: 50px;
+    width: 350px;
+    margin: 5px 10px;
+}
